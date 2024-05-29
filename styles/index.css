@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(255, 224, 180), rgb(255, 255, 255));
+    margin: 0;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+.logotipo {
+    width: 100px;
+    margin: 5px;
+    padding: 5px 30px;
+}
+
+.titulo_pag {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 10px 30px 10px;
+    text-align: center;
+}
+
+hr {
+    background-color: #b1b0b0;
+    width: 95%;
+    height: 3px;
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
+.tabela_tabela {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    justify-content: center;
+    width: 95%;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 600px;
+    background-color: rgb(215, 219, 219);
+    border: 1px solid #b1b0b0;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.cliente td {
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    border: 1px solid #c5c3c3;
+}
+
+.alertaMax {
+    background-color: red;
+}
+
+.alertaMin {
+    color: red;
+}
+
+/*Estilização do footer*/
+
+.index_footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-style: italic;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 224, 180));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+footer p {
+    margin: auto;
+}
+
+/*Estilização botão add_form*/
+
+.botao_add {
+    background-color: rgb(247, 198, 135);
+    border-radius: 50%;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+
+ion-icon {
+    font-size: 50px;
+    color: black;
+}
+
+
+
+/*Estilização Filtrar Tabela*/
+.filtro {
+    margin-left: 30px;
+}
+
+#filtrarTabela {
+    padding: 8px 12px 8px 16px;
+    width: 40%;
+    height: 25px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+.invisivel {
+    display: none;
+}
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px 8px 16px;
+    margin: 16px 30px;
+    margin-left: 150px;
+    gap: 8px;
+    height: 40px;
+    width: 128px;
+    border: none;
+    background: antiquewhite;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*Estilização do campo de frete*/
+
+.frete{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

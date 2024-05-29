@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Nova Encomenda</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/pop-form.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Adicionar Nova Encomenda:</h1>
+        <hr>
+        <form id="adicionarEncomendaPop">
+            <label for='ipNomePop'>Nome: <input id="ipNomePop" type="text" placeholder="Nome do cliente." required></label>
+            <label for="ipProdPop">Produto: <input id="ipProdPop" type="text" placeholder="Nome do produto." required></label>
+            <label for="ipQtdePop">Quantidade: <input id="ipQtdePop" type="number" min="1" placeholder="Quantidade de produto." required></label>
+            <label for="ipVUniPop">Valor Unitário (R$): <input id="ipVUniPop" type="number" min="1" placeholder="Valor unitário." required></label>
+            <input type="submit" value="Adicionar" id="adicionarEncomenda">
+        </form>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/pop-up.js"></script>
+    <script src="js/addEncomenda.js"></script> 
+    <script>
+        window.onload = function() {
+            window.addEventListener('resize', function() {
+                window.resizeTo(600, 400);
+            });
+        };
+    </script>
+</body>
+
+</html>

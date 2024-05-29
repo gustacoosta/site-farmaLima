@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    margin:auto;
+}
+
+hr {
+    background-color: #b1b0b0;
+    width: 95%;
+    height: 3px;
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
+.formulario {
+    align-items: left;
+    text-align: left;
+    font-size: 15px;
+    width: 100%;
+}
+
+.formulario h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.formulario form {
+    margin: auto;
+    padding: 10px 10% 10px 10%;
+}
+
+.formulario input {
+    margin: 5px;
+    padding: 4px;
+    width: 100%;
+}
+
+#adicionarEncomenda {
+    width: 50%;
+    font-size: 15px;
+    width: 50%;
+    background-color: antiquewhite;
+    border-color: bisque;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+}
+
+#adicionarEncomenda:hover{
+    background-color: #dbb98fda;
+}
