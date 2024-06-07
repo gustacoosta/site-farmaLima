@@ -1,0 +1,47 @@
+{
+    "encomendas": [
+        {
+            "info-nome": "Bruce Wayne",
+            "info-produto": "Shampoo",
+            "info-quant": 2,
+            "info-valor": 22,
+            "info-total": "0"
+        },
+        {
+            "info-nome": "Agatha Christie",
+            "info-produto": "Sabonete Facila",
+            "info-quant": 1,
+            "info-valor": 15,
+            "info-total": 0
+        },
+        {
+            "info-nome": "Peter Pam",
+            "info-produto": "Chupeta",
+            "info-quant": 1,
+            "info-valor": 6,
+            "info-total": 0
+        },
+        {
+            "info-nome": "Tinker Bell",
+            "info-produto": "Iluminador",
+            "info-quant": 0,
+            "info-valor": 7,
+            "info-total": 0
+        },
+        {
+            "info-nome": "Aladim",
+            "info-produto": "Água Micelar",
+            "info-quant": 1,
+            "info-valor": 11,
+            "info-total": 0
+        },
+        {
+            "info-nome": "Sabrina",
+            "info-produto": "Cor&Ton - Loiro",
+            "info-quant": 1,
+            "info-valor": "dfg",
+            "info-total": 0
+        }
+
+    ]
+}
